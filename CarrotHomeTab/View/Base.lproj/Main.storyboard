@@ -123,11 +123,11 @@
         <scene sceneID="lf3-47-tVs">
             <objects>
                 <viewControllerPlaceholder storyboardIdentifier="HomeViewController" storyboardName="Home" referencedIdentifier="HomeViewController" id="kbQ-cK-xcF" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="L2O-Ov-AkJ"/>
+                    <tabBarItem key="tabBarItem" title="" id="L2O-Ov-AkJ"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zFf-CB-1KN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-510" y="1201"/>
+            <point key="canvasLocation" x="-470" y="879"/>
         </scene>
     </scenes>
     <resources>
