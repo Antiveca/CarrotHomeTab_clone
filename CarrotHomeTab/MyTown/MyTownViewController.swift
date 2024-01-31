@@ -1,13 +1,13 @@
 //
-//  MainNabigationViewController.swift
+//  MyTownViewController.swift
 //  CarrotHomeTab
 //
-//  Created by ByeongGuk Choi on 2024/01/29.
+//  Created by ByeongGuk Choi on 2024/01/30.
 //
 
 import UIKit
 
-class MainNavigationController: UINavigationController {
+class MyTownViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

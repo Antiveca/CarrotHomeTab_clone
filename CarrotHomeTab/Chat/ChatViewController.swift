@@ -1,13 +1,13 @@
 //
-//  HomeViewController.swift
+//  ChatViewController.swift
 //  CarrotHomeTab
 //
-//  Created by ByeongGuk Choi on 2024/01/29.
+//  Created by ByeongGuk Choi on 2024/01/30.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class ChatViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,12 +15,7 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func ctaButtonTapped(_ sender: Any) {
-        let sb = UIStoryboard(name: "Detail", bundle: nil)
-        let vc = sb.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
-        navigationController?.pushViewController(vc, animated: true)
-    }
-    
+
     /*
     // MARK: - Navigation
 

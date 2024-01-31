@@ -1,13 +1,13 @@
 //
-//  MainTabBarController.swift
+//  MyProfileViewController.swift
 //  CarrotHomeTab
 //
-//  Created by ByeongGuk Choi on 2024/01/29.
+//  Created by ByeongGuk Choi on 2024/01/30.
 //
 
 import UIKit
 
-class MainTabBarController: UITabBarController {
+class MyProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
