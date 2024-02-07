@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21FBC401ED9E6A1A37D17EDD /* Pods_CarrotHomeTab_CarrotHomeTabUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C00B5B4CA434AC4645EB54F5 /* Pods_CarrotHomeTab_CarrotHomeTabUITests.framework */; };
-		335B02CF49C547A7268B1E47 /* Pods_CarrotHomeTabTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B331063E5BECDEB92F8EBC /* Pods_CarrotHomeTabTests.framework */; };
 		3AA34F3A2B67DF090001E60A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA34F392B67DF090001E60A /* HomeViewController.swift */; };
 		3AA34F3C2B67DF270001E60A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA34F3B2B67DF270001E60A /* DetailViewController.swift */; };
 		3AA34F3E2B67E1EF0001E60A /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA34F3D2B67E1EF0001E60A /* MainNavigationController.swift */; };
@@ -19,8 +17,11 @@
 		3AA34F482B6930C00001E60A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA34F472B6930C00001E60A /* ChatViewController.swift */; };
 		3AA34F4A2B6939C60001E60A /* CustomBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA34F492B6939C60001E60A /* CustomBarItem.swift */; };
 		3AA34F4C2B6949890001E60A /* UIBarButtonItem&CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA34F4B2B6949890001E60A /* UIBarButtonItem&CustomView.swift */; };
-		3AA34F562B6A79A30001E60A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA34F542B6A79A30001E60A /* Home.storyboard */; };
 		3AA34F582B6A79CF0001E60A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA34F572B6A79CF0001E60A /* HomeViewModel.swift */; };
+		3AE51F162B73B4F10054247B /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3AE51F152B73B4F10054247B /* Kingfisher */; };
+		3AE51F182B73B6D80054247B /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE51F172B73B6D80054247B /* Home.storyboard */; };
+		3AE51F1A2B73B75F0054247B /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE51F192B73B75F0054247B /* DetailViewModel.swift */; };
+		3AE51F1C2B73B7BC0054247B /* ItemInfoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE51F1B2B73B7BC0054247B /* ItemInfoDetails.swift */; };
 		3AF216052B6A8F2400899744 /* ItemInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF216042B6A8F2400899744 /* ItemInfoCell.swift */; };
 		9402EE1128673D9C00D33FDD /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402EE0F28673D9C00D33FDD /* NetworkService.swift */; };
 		9402EE1228673D9C00D33FDD /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402EE1028673D9C00D33FDD /* Resource.swift */; };
@@ -34,7 +35,6 @@
 		94BB229528669A17004FC34D /* CarrotHomeTabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB229428669A17004FC34D /* CarrotHomeTabTests.swift */; };
 		94BB229F28669A17004FC34D /* CarrotHomeTabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB229E28669A17004FC34D /* CarrotHomeTabUITests.swift */; };
 		94BB22A128669A17004FC34D /* CarrotHomeTabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB22A028669A17004FC34D /* CarrotHomeTabUITestsLaunchTests.swift */; };
-		C593A7AD2BD98977337C9F35 /* Pods_CarrotHomeTab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE39B48A5D9267757F3C456 /* Pods_CarrotHomeTab.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,9 +55,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01B331063E5BECDEB92F8EBC /* Pods_CarrotHomeTabTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarrotHomeTabTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		063E1BB20849B2D149A802E6 /* Pods-CarrotHomeTab-CarrotHomeTabUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotHomeTab-CarrotHomeTabUITests.release.xcconfig"; path = "Target Support Files/Pods-CarrotHomeTab-CarrotHomeTabUITests/Pods-CarrotHomeTab-CarrotHomeTabUITests.release.xcconfig"; sourceTree = "<group>"; };
-		104551AB3BB416618BD9B792 /* Pods-CarrotHomeTabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotHomeTabTests.release.xcconfig"; path = "Target Support Files/Pods-CarrotHomeTabTests/Pods-CarrotHomeTabTests.release.xcconfig"; sourceTree = "<group>"; };
 		3AA34F392B67DF090001E60A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3AA34F3B2B67DF270001E60A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3AA34F3D2B67E1EF0001E60A /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
@@ -68,11 +65,11 @@
 		3AA34F472B6930C00001E60A /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		3AA34F492B6939C60001E60A /* CustomBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBarItem.swift; sourceTree = "<group>"; };
 		3AA34F4B2B6949890001E60A /* UIBarButtonItem&CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem&CustomView.swift"; sourceTree = "<group>"; };
-		3AA34F552B6A79A30001E60A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CarrotHomeTab/View/Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		3AA34F572B6A79CF0001E60A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		3AE51F172B73B6D80054247B /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		3AE51F192B73B75F0054247B /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		3AE51F1B2B73B7BC0054247B /* ItemInfoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoDetails.swift; sourceTree = "<group>"; };
 		3AF216042B6A8F2400899744 /* ItemInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoCell.swift; sourceTree = "<group>"; };
-		5E450DC97FB4CA32CAB14912 /* Pods-CarrotHomeTab-CarrotHomeTabUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotHomeTab-CarrotHomeTabUITests.debug.xcconfig"; path = "Target Support Files/Pods-CarrotHomeTab-CarrotHomeTabUITests/Pods-CarrotHomeTab-CarrotHomeTabUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		8FE24DCA89FF8615DD4F8F29 /* Pods-CarrotHomeTabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotHomeTabTests.debug.xcconfig"; path = "Target Support Files/Pods-CarrotHomeTabTests/Pods-CarrotHomeTabTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9402EE0F28673D9C00D33FDD /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		9402EE1028673D9C00D33FDD /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		9402EE1628673FB100D33FDD /* Publisher+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Publisher+Utils.swift"; sourceTree = "<group>"; };
@@ -89,10 +86,6 @@
 		94BB229A28669A17004FC34D /* CarrotHomeTabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrotHomeTabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94BB229E28669A17004FC34D /* CarrotHomeTabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotHomeTabUITests.swift; sourceTree = "<group>"; };
 		94BB22A028669A17004FC34D /* CarrotHomeTabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotHomeTabUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9CE39B48A5D9267757F3C456 /* Pods_CarrotHomeTab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarrotHomeTab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7BE553E1879298A8B51C52B /* Pods-CarrotHomeTab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotHomeTab.release.xcconfig"; path = "Target Support Files/Pods-CarrotHomeTab/Pods-CarrotHomeTab.release.xcconfig"; sourceTree = "<group>"; };
-		C00B5B4CA434AC4645EB54F5 /* Pods_CarrotHomeTab_CarrotHomeTabUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarrotHomeTab_CarrotHomeTabUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD206BB578DF671396FD9956 /* Pods-CarrotHomeTab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotHomeTab.debug.xcconfig"; path = "Target Support Files/Pods-CarrotHomeTab/Pods-CarrotHomeTab.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C593A7AD2BD98977337C9F35 /* Pods_CarrotHomeTab.framework in Frameworks */,
+				3AE51F162B73B4F10054247B /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +101,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				335B02CF49C547A7268B1E47 /* Pods_CarrotHomeTabTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,27 +108,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21FBC401ED9E6A1A37D17EDD /* Pods_CarrotHomeTab_CarrotHomeTabUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2FF171FC90FC35B9B6C18B67 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9CE39B48A5D9267757F3C456 /* Pods_CarrotHomeTab.framework */,
-				C00B5B4CA434AC4645EB54F5 /* Pods_CarrotHomeTab_CarrotHomeTabUITests.framework */,
-				01B331063E5BECDEB92F8EBC /* Pods_CarrotHomeTabTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		3AA34F4D2B6A75DA0001E60A /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				3AA34F542B6A79A30001E60A /* Home.storyboard */,
+				3AE51F172B73B6D80054247B /* Home.storyboard */,
 				3AF216042B6A8F2400899744 /* ItemInfoCell.swift */,
 				3AA34F572B6A79CF0001E60A /* HomeViewModel.swift */,
 				3AA34F392B67DF090001E60A /* HomeViewController.swift */,
@@ -165,6 +146,8 @@
 			children = (
 				3AA34F412B67E2E80001E60A /* Detail.storyboard */,
 				3AA34F3B2B67DF270001E60A /* DetailViewController.swift */,
+				3AE51F192B73B75F0054247B /* DetailViewModel.swift */,
+				3AE51F1B2B73B7BC0054247B /* ItemInfoDetails.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -194,20 +177,6 @@
 				3AA34F432B69306C0001E60A /* MyTownViewController.swift */,
 			);
 			path = MyTown;
-			sourceTree = "<group>";
-		};
-		5FB12A447B44CA8C3A5C09C9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FD206BB578DF671396FD9956 /* Pods-CarrotHomeTab.debug.xcconfig */,
-				B7BE553E1879298A8B51C52B /* Pods-CarrotHomeTab.release.xcconfig */,
-				5E450DC97FB4CA32CAB14912 /* Pods-CarrotHomeTab-CarrotHomeTabUITests.debug.xcconfig */,
-				063E1BB20849B2D149A802E6 /* Pods-CarrotHomeTab-CarrotHomeTabUITests.release.xcconfig */,
-				8FE24DCA89FF8615DD4F8F29 /* Pods-CarrotHomeTabTests.debug.xcconfig */,
-				104551AB3BB416618BD9B792 /* Pods-CarrotHomeTabTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		9402EE0E28673D9C00D33FDD /* Network */ = {
@@ -242,8 +211,6 @@
 				94BB229328669A17004FC34D /* CarrotHomeTabTests */,
 				94BB229D28669A17004FC34D /* CarrotHomeTabUITests */,
 				94BB227B28669A15004FC34D /* Products */,
-				5FB12A447B44CA8C3A5C09C9 /* Pods */,
-				2FF171FC90FC35B9B6C18B67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -303,17 +270,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94BB22A428669A17004FC34D /* Build configuration list for PBXNativeTarget "CarrotHomeTab" */;
 			buildPhases = (
-				B08B23345CD5FD23FE7DEB5A /* [CP] Check Pods Manifest.lock */,
 				94BB227628669A15004FC34D /* Sources */,
 				94BB227728669A15004FC34D /* Frameworks */,
 				94BB227828669A15004FC34D /* Resources */,
-				C854C3DA5B7D7474311CD098 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CarrotHomeTab;
+			packageProductDependencies = (
+				3AE51F152B73B4F10054247B /* Kingfisher */,
+			);
 			productName = CarrotHomeTab;
 			productReference = 94BB227A28669A15004FC34D /* CarrotHomeTab.app */;
 			productType = "com.apple.product-type.application";
@@ -322,7 +290,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94BB22A728669A17004FC34D /* Build configuration list for PBXNativeTarget "CarrotHomeTabTests" */;
 			buildPhases = (
-				BC0965F4BA89A6C96FECF938 /* [CP] Check Pods Manifest.lock */,
 				94BB228C28669A17004FC34D /* Sources */,
 				94BB228D28669A17004FC34D /* Frameworks */,
 				94BB228E28669A17004FC34D /* Resources */,
@@ -341,11 +308,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94BB22AA28669A17004FC34D /* Build configuration list for PBXNativeTarget "CarrotHomeTabUITests" */;
 			buildPhases = (
-				09E3386BCB733BD488065A1F /* [CP] Check Pods Manifest.lock */,
 				94BB229628669A17004FC34D /* Sources */,
 				94BB229728669A17004FC34D /* Frameworks */,
 				94BB229828669A17004FC34D /* Resources */,
-				185FB5D2C729F4469C14E45A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -389,6 +354,9 @@
 				Base,
 			);
 			mainGroup = 94BB227128669A15004FC34D;
+			packageReferences = (
+				3AE51F142B73B4F10054247B /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 94BB227B28669A15004FC34D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -406,7 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94BB228A28669A16004FC34D /* LaunchScreen.storyboard in Resources */,
-				3AA34F562B6A79A30001E60A /* Home.storyboard in Resources */,
+				3AE51F182B73B6D80054247B /* Home.storyboard in Resources */,
 				94A38E5C286830EA000691E1 /* Main.storyboard in Resources */,
 				94BB228728669A16004FC34D /* Assets.xcassets in Resources */,
 				3AA34F422B67E2E80001E60A /* Detail.storyboard in Resources */,
@@ -429,109 +397,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		09E3386BCB733BD488065A1F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CarrotHomeTab-CarrotHomeTabUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		185FB5D2C729F4469C14E45A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CarrotHomeTab-CarrotHomeTabUITests/Pods-CarrotHomeTab-CarrotHomeTabUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CarrotHomeTab-CarrotHomeTabUITests/Pods-CarrotHomeTab-CarrotHomeTabUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarrotHomeTab-CarrotHomeTabUITests/Pods-CarrotHomeTab-CarrotHomeTabUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B08B23345CD5FD23FE7DEB5A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CarrotHomeTab-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BC0965F4BA89A6C96FECF938 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CarrotHomeTabTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C854C3DA5B7D7474311CD098 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CarrotHomeTab/Pods-CarrotHomeTab-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CarrotHomeTab/Pods-CarrotHomeTab-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarrotHomeTab/Pods-CarrotHomeTab-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		94BB227628669A15004FC34D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -547,9 +412,11 @@
 				3AA34F4C2B6949890001E60A /* UIBarButtonItem&CustomView.swift in Sources */,
 				3AA34F462B6930B70001E60A /* MyProfileViewController.swift in Sources */,
 				3AA34F3A2B67DF090001E60A /* HomeViewController.swift in Sources */,
+				3AE51F1C2B73B7BC0054247B /* ItemInfoDetails.swift in Sources */,
 				9402EE1228673D9C00D33FDD /* Resource.swift in Sources */,
 				3AA34F482B6930C00001E60A /* ChatViewController.swift in Sources */,
 				3AA34F442B69306C0001E60A /* MyTownViewController.swift in Sources */,
+				3AE51F1A2B73B75F0054247B /* DetailViewModel.swift in Sources */,
 				3AA34F4A2B6939C60001E60A /* CustomBarItem.swift in Sources */,
 				3AA34F3E2B67E1EF0001E60A /* MainNavigationController.swift in Sources */,
 				3AF216052B6A8F2400899744 /* ItemInfoCell.swift in Sources */,
@@ -590,14 +457,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3AA34F542B6A79A30001E60A /* Home.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3AA34F552B6A79A30001E60A /* Base */,
-			);
-			name = Home.storyboard;
-			sourceTree = "<group>";
-		};
 		94A38E57286830EA000691E1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -733,7 +592,6 @@
 		};
 		94BB22A528669A17004FC34D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD206BB578DF671396FD9956 /* Pods-CarrotHomeTab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -762,7 +620,6 @@
 		};
 		94BB22A628669A17004FC34D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7BE553E1879298A8B51C52B /* Pods-CarrotHomeTab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -791,7 +648,6 @@
 		};
 		94BB22A828669A17004FC34D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FE24DCA89FF8615DD4F8F29 /* Pods-CarrotHomeTabTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -812,7 +668,6 @@
 		};
 		94BB22A928669A17004FC34D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 104551AB3BB416618BD9B792 /* Pods-CarrotHomeTabTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -833,7 +688,6 @@
 		};
 		94BB22AB28669A17004FC34D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E450DC97FB4CA32CAB14912 /* Pods-CarrotHomeTab-CarrotHomeTabUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -852,7 +706,6 @@
 		};
 		94BB22AC28669A17004FC34D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 063E1BB20849B2D149A802E6 /* Pods-CarrotHomeTab-CarrotHomeTabUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -909,6 +762,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3AE51F142B73B4F10054247B /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3AE51F152B73B4F10054247B /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3AE51F142B73B4F10054247B /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 94BB227228669A15004FC34D /* Project object */;
 }
