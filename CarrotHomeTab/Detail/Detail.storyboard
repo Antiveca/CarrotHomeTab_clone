@@ -160,20 +160,92 @@
                                     <constraint firstAttribute="trailing" secondItem="Mc3-3e-zom" secondAttribute="trailing" id="rb9-th-3Pr"/>
                                 </constraints>
                             </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MWd-Eq-SB2">
+                                <rect key="frame" x="0.0" y="776" width="414" height="120"/>
+                                <subviews>
+                                    <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ee7-0m-ngM" userLabel="division line">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1"/>
+                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="5gW-o7-e2Z"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="EgI-2K-Pw2">
+                                        <rect key="frame" x="15" y="10" width="384" height="60"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bv9-kG-k4Z">
+                                                <rect key="frame" x="0.0" y="1.5" width="30" height="57.5"/>
+                                                <color key="tintColor" systemColor="systemGrayColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30" id="h58-qq-36O"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tLu-7q-JTp">
+                                                <rect key="frame" x="50" y="0.0" width="194" height="60"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="000,000원" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YVU-Df-viH">
+                                                        <rect key="frame" x="0.0" y="0.0" width="194" height="35"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="35" id="Lel-kK-YGq"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="가격 제안 불가" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBK-Kl-Xhv">
+                                                        <rect key="frame" x="0.0" y="35" width="194" height="25"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                        <color key="textColor" systemColor="systemGrayColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9m-Ig-NRf">
+                                                <rect key="frame" x="264" y="0.0" width="120" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="120" id="7rh-O8-RPn"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="채팅하기">
+                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                                    <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="9nI-41-GwD"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="EgI-2K-Pw2" firstAttribute="centerX" secondItem="MWd-Eq-SB2" secondAttribute="centerX" id="6NU-aX-AJE"/>
+                                    <constraint firstItem="Ee7-0m-ngM" firstAttribute="leading" secondItem="MWd-Eq-SB2" secondAttribute="leading" id="8oY-Qi-TIq"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ee7-0m-ngM" secondAttribute="trailing" id="BUj-vr-RQG"/>
+                                    <constraint firstItem="Ee7-0m-ngM" firstAttribute="top" secondItem="MWd-Eq-SB2" secondAttribute="top" id="FpS-Yt-FVR"/>
+                                    <constraint firstItem="EgI-2K-Pw2" firstAttribute="top" secondItem="MWd-Eq-SB2" secondAttribute="top" constant="10" id="P9r-v1-2iV"/>
+                                    <constraint firstItem="EgI-2K-Pw2" firstAttribute="leading" secondItem="MWd-Eq-SB2" secondAttribute="leading" constant="15" id="ShV-ns-Qvn"/>
+                                    <constraint firstAttribute="height" constant="120" id="mTb-AU-z2y"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="EIu-tU-ELy" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="0D8-0e-1Ij"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="EIu-tU-ELy" secondAttribute="trailing" id="IcK-tB-VmT"/>
+                            <constraint firstItem="MWd-Eq-SB2" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="LTL-L1-dVA"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="MWd-Eq-SB2" secondAttribute="trailing" id="Vcy-FJ-4eq"/>
                             <constraint firstItem="Mc3-3e-zom" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="1.00725" id="bCT-IS-zve"/>
                             <constraint firstItem="EIu-tU-ELy" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="imH-uA-U70"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="EIu-tU-ELy" secondAttribute="bottom" id="sbA-ct-1l6"/>
+                            <constraint firstAttribute="bottom" secondItem="MWd-Eq-SB2" secondAttribute="bottom" id="xQE-a5-0yj"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="itemInfoDescription" destination="DgB-Dn-DtG" id="HOp-X8-nBj"/>
                         <outlet property="itemInfoTitle" destination="h32-Kj-6QI" id="KKy-xh-Npb"/>
+                        <outlet property="itemPriceLabel" destination="YVU-Df-viH" id="jHG-jB-t2L"/>
                         <outlet property="itemThumbnail" destination="sSC-jz-ciq" id="yZ1-Zb-xCg"/>
                         <outlet property="userLocation" destination="WRd-4f-CTr" id="Z13-ZI-Da7"/>
                         <outlet property="userName" destination="3iH-oU-dw9" id="N4O-fQ-ocG"/>
@@ -187,6 +259,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="heart" catalog="system" width="128" height="107"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
